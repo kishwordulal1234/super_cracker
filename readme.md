@@ -1,8 +1,8 @@
-# 💥 PyBlast - The Ultimate Hash Cracking Engine
+# 💥 super_cracker - The Ultimate Hash Cracking Engine
 
 &#x20;&#x20;
 
-> **PyBlast** is a high-performance, multi-threaded, auto-detecting hash cracker for Linux systems. It supports both CPU and GPU cracking with advanced features like resume, salt support, and progress monitoring. Built for hackers and cybersecurity researchers.
+> **super_cracker** is a high-performance, multi-threaded, auto-detecting hash cracker for Linux systems. It supports both CPU and GPU cracking with advanced features like resume, salt support, and progress monitoring. Built for hackers and cybersecurity researchers.
 
 ---
 
