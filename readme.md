@@ -100,6 +100,14 @@ Star ⭐ the repo if you liked it!
 
 ---
 
+📁 Example Files
+```bash
+echo -n "i love u" | sha256sum | cut -d ' ' -f1 > hashes.txt
+echo "i love u" > test.txt
+```
+
+python3 multi_cracker.py --wordlist test.txt --hashes hashes.txt --type sha256 --threads 5
+
 ## 🔐 Disclaimer
 
 > For educational purposes only. Use responsibly and legally.
