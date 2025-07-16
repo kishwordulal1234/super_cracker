@@ -58,13 +58,13 @@ pip3 install tqdm rich psutil GPUtil
 ## 🧠 Usage
 
 ```bash
-python3 multi_cracker.py --wordlist rockyou.txt --hashes hashes.txt --threads 20 --type sha256
+python3 super_cracker.py --wordlist rockyou.txt --hashes hashes.txt --threads 20 --type sha256
 ```
 
 ### 💣 GPU Mode (Hashcat Required)
 
 ```bash
-python3 multi_cracker.py --wordlist rockyou.txt --hashes hashes.txt --gpu
+python3 super_cracker.py --wordlist rockyou.txt --hashes hashes.txt --gpu
 ```
 
 ### 🛠 Flags
@@ -104,10 +104,10 @@ Star ⭐ the repo if you liked it!
 ```bash
 echo -n "i love u" | sha256sum | cut -d ' ' -f1 > hashes.txt
 echo "i love u" > test.txt
+
+
+python3 super_cracker.py --wordlist test.txt --hashes hashes.txt --type sha256 --threads 5
 ```
-
-python3 multi_cracker.py --wordlist test.txt --hashes hashes.txt --type sha256 --threads 5
-
 ## 🔐 Disclaimer
 
 > For educational purposes only. Use responsibly and legally.
